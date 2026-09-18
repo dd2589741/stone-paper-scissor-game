@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(245, 244, 247);
+    color: aliceblue;
+
+}
+.internal{
+    margin: 100px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: darkslategrey;
+    
+}
+#head{
+   text-align: center;
+    background-color: darkblue;
+    margin-bottom: 0px;
+    margin-top: 9px;
+    
+}
+.intro{text-align: center;
+    background-color: rgb(16, 16, 77);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    opacity: 0.5;
+   
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(5, 5, 46);
+    height: 30px;
+    font-size: 12px;
+    padding: 5px 10px;
+   
+     
+    
+}
+.btn{
+    transition: 0.3s;
+}
+.btn:hover{
+  
+    color: rgb(42, 127, 153);
+}
+.btn:hover{
+      transform: scale(1.2); 
+}
+button{
+    background-color: rgb(44, 35, 35);
+    color: aliceblue;
+    border-radius: 10px;
+}
+#display{
+    text-align: center;
+    
+    
+}
+#usrpnt,#syspnt{
+margin-left: 3%;
+}
+#reset_button{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    background-color: rgb(8, 48, 80);
+}
